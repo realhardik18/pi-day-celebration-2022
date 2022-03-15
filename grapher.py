@@ -15,6 +15,7 @@ plt.bar(values_lables, valeus, color='blue',
 plt.xlabel("values")
 plt.ylabel("frequency")
 plt.title("occurence of digits in pi(upto 1,000,000)")
+plt.savefig('output.jpg')
 plt.show()
 print(valeus)
 # graphing the frecuency
