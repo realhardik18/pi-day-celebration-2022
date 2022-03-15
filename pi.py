@@ -1,7 +1,6 @@
 import decimal
 import matplotlib.pyplot as plt
 
-negative = False
 curr = 1
 pi = 0
 for i in range(100000):
