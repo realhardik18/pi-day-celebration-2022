@@ -11,9 +11,9 @@ for i in range(100000):
         pi -= 4/curr
         curr += 2
 
-d2 = decimal.Decimal(pi)
+pi_acc = decimal.Decimal(pi)
 dot100 = decimal.Context(prec=1000000)
-d2 *= d2
-pi = d2.sqrt(dot100)
+pi_acc *= pi_acc
+pi = pi_acc.sqrt(dot100)
 print(type(pi))
 # copied this output to pi.txt(after the decimal place)
